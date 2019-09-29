@@ -1,0 +1,12 @@
+---
+layout: layouts/base.html
+welcomeMessage: "Welcome to my blog"
+---
+    <h2>{{ welcomeMessage }}</h2>
+    <p id="read">Read my blogposts here!</p>
+
+    <div class="box">
+      {% for post in collections.posts %}
+        <div class="items"><a id="blognav" href="{{ post.url }}">{{ post.data.title }}</a></div>
+      {% endfor %}
+    </div>

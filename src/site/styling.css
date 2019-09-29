@@ -1,0 +1,93 @@
+body {
+  background-color: #FFE381;
+  margin: 0;
+}
+
+header {
+  font-family: 'VT323', monospace;
+  background-color: #2d2d2d;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+header a {
+  font-family: 'Share Tech Mono', monospace;
+  font-variant:  small-caps;
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #cb2025;
+}
+
+header a:hover {
+  color: #f8b334;
+}
+
+main {
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #202020;
+  letter-spacing: .4em;
+  text-shadow:
+  -1px -1px 1px #111,
+  2px 2px 1px #363636;
+}
+
+h2 {
+  color: #97bf0d;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+}
+
+#read {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  color: #2d2d2d;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.items {
+  background-color: #f8b334;
+  font-size: 3rem;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  width: 20rem;
+  margin-bottom: 1.5rem;
+}
+
+.items:hover {
+  background-color: #FFE381;
+  color: #cb2025;
+}
+
+#blognav {
+  font-size: 1.5rem;
+  color: #00a096;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.blogbox {
+  padding: 5rem;
+}
